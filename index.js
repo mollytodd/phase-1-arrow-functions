@@ -1,6 +1,11 @@
-let divide = (x, y)=> x / y;
+const divide = function (num1, num2) {
+  return num1 / num2;
+};
 
+divide(2000, 100);
 
-square = (x)=> x * x;
+const square = (num1) => num1 * num1;
 
-add = (x, y)=> x + y
+square(2);
+
+const add = (num1,num2) => num1 + num2;
